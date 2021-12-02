@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginStart="35dp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/arrowblack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="50/50"
+        android:textColor="#333333"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="34dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/medium"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="41dp"
+        android:layout_gravity="right"
+        android:src="@drawable/shopping_cart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваш личный конструктор\nпиццы!"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="78dp"
+        android:textColor="#9C9C9C"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="304dp"
+        android:src="@drawable/halves_2"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="459dp"
+        android:background="#D7D7D7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Размер"
+        android:fontFamily="@font/medium"
+        android:textSize="12sp"
+        android:textColor="#D7D7D7"
+        android:layout_marginTop="451dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="237dp"
+        android:background="#D7D7D7"
+        android:layout_marginTop="459dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="536dp"
+        android:background="#D7D7D7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тесто"
+        android:fontFamily="@font/medium"
+        android:textSize="12sp"
+        android:textColor="#D7D7D7"
+        android:layout_marginTop="528dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="237dp"
+        android:background="#D7D7D7"
+        android:layout_marginTop="536dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="599dp"
+        android:background="#D7D7D7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Соусы"
+        android:fontFamily="@font/medium"
+        android:textSize="12sp"
+        android:textColor="#D7D7D7"
+        android:layout_marginTop="591dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="237dp"
+        android:background="#D7D7D7"
+        android:layout_marginTop="599dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:background="@drawable/group_54"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="36dp"
+        android:layout_gravity="bottom|right"/>
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/frame_background"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Маргарита"
+            android:textSize="22sp"
+            android:fontFamily="@font/medium"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D7D7D7"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="46dp"
+            android:fontFamily="@font/medium"
+            android:textSize="11sp"
+            android:text="сыр Моццарелла, листья\nбазилика, итальянские\nспеции, соус"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FE0602"
+            android:text="от 620 ₽"
+            android:fontFamily="@font/montserratbold"
+            android:textSize="18sp"
+            android:layout_marginTop="97dp"
+            android:layout_marginStart="167dp"/>
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/background_search"
+            android:drawableTop="@drawable/plus_1"
+            android:paddingTop="7dp"
+            android:layout_marginTop="86dp"
+            android:layout_marginStart="257dp"/>
+
+    </FrameLayout>
+    <ImageView
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:src="@drawable/kisspng_neapolitan_pizza_pizza_margherita_neapolitan_cuisi_pizza_margherita_5b396d056d7849_1"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="9dp"/>
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="45dp"
+        android:src="@drawable/_7cc694b_1"
+        android:layout_marginStart="35dp"/>
+
+</FrameLayout>

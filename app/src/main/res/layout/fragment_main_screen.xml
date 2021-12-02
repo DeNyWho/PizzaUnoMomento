@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MainScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="89dp"
+                android:layout_width="110dp"
+                android:layout_marginStart="30dp"
+                android:layout_height="57dp"
+                android:src="@drawable/logo_1"/>
+
+            <ImageView
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:src="@drawable/call"
+                android:layout_marginTop="34dp"
+                android:layout_marginStart="30dp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="41dp"
+                android:layout_gravity="right"
+                android:src="@drawable/shopping_cart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="КОНСТРУКТОР"
+                android:textColor="#333333"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="34dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/medium"/>
+
+            <ImageView
+                android:layout_marginTop="171dp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="173dp"
+                android:src="@drawable/rectangle_37"
+                android:adjustViewBounds="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Поиск..."
+                android:textColor="#333333"
+                android:fontFamily="@font/montserrat"
+                android:textSize="14sp"
+                android:textColorHint="#D7D7D7"
+                android:paddingStart="35dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginEnd="37dp"
+                android:backgroundTint="#D7D7D7"
+                android:layout_marginTop="93dp"/>
+
+            <ImageView
+                android:layout_width="14sp"
+                android:layout_height="14sp"
+                android:src="@drawable/magnifying_glass__1__1"
+                android:layout_marginTop="106dp"
+                android:layout_marginStart="160dp"/>
+
+            <FrameLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="363dp"
+                android:background="@drawable/frame_background"
+                android:layout_marginStart="38dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/first"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="363dp"
+                android:background="@drawable/frame_background"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Паста"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/group_57"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="363dp"
+                android:background="@drawable/frame_background"
+                android:layout_marginEnd="38dp"
+                android:layout_gravity="right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/intersect"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="468dp"
+                android:background="@drawable/frame_background"
+                android:layout_marginStart="38dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Салаты"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="468dp"
+                android:background="@drawable/frame_background"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Закуски"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="468dp"
+                android:background="@drawable/frame_background"
+                android:layout_marginEnd="38dp"
+                android:layout_gravity="right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Супы"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="573dp"
+                android:background="@drawable/frame_background"
+                android:layout_marginStart="38dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Уно-\nЛанчи"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_gravity="center_horizontal"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="573dp"
+                android:background="@drawable/frame_background"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Уно-\nНаборы"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="573dp"
+                android:background="@drawable/frame_background"
+                android:layout_marginEnd="38dp"
+                android:layout_gravity="right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Десерты"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="678dp"
+                android:background="@drawable/frame_background"
+                android:layout_marginStart="38dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Напитки"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="678dp"
+                android:layout_marginBottom="44dp"
+                android:background="@drawable/frame_background"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Соусы"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/medium"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="63dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+            </FrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_marginTop="349dp"
+                android:layout_height="382dp"
+                tools:listitem="@layout/main_screen_recycler_item"/>
+
+        </FrameLayout>
+    </ScrollView>
+
+</FrameLayout>

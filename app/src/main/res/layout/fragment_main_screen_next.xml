@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.MainScreenNext">
+
+    <ImageView
+        android:layout_marginStart="35dp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/arrowblack"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="41dp"
+        android:layout_gravity="right"
+        android:src="@drawable/shopping_cart" />
+
+    <com.ruslankishai.unmaterialtab.tabs.RoundTabLayout
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="81dp"
+        android:id="@+id/custom_tab_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:accent="#FE0602"
+        app:cornerRadius="5"
+        app:withStroke="false" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"/>
+
+</FrameLayout>
