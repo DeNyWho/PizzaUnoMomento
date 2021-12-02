@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F2F2F2"
+    tools:context=".fragments.Cart">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="МОЯ КОРЗИНА"
+                android:textColor="#333333"
+                android:layout_marginTop="34dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/medium"/>
+
+            <ImageView
+                android:layout_marginStart="35dp"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/arrowblack"/>
+
+            <FrameLayout
+                android:visibility="gone"
+                android:layout_marginTop="87dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="118dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/cart"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пустая корзина"
+                    android:textColor="#333333"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/medium"
+                    android:layout_marginTop="253dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Похоже, вы ещё не сделали выбор"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginTop="279dp"
+                    android:textSize="12sp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="309dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/stocks_button"
+                    android:layout_marginTop="319dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="К меню"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/montserrat"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Взгляните на наше новое\nпредложение —"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="382dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="пицца-"
+                    android:textColor="#FE0602"
+                    android:textSize="12sp"
+                    android:layout_marginTop="396dp"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="71sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="конструктор"
+                    android:textColor="#FE0602"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginTop="410dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:visibility="gone"
+                android:layout_marginTop="87dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="140dp"
+                    android:layout_height="42dp"
+                    android:text="Доставка"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="38dp"
+                    android:background="@drawable/cart_back_button"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/white"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="140dp"
+                    android:layout_height="42dp"
+                    android:text="Самовызов"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="38dp"
+                    android:background="@drawable/cart_back_button"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="37dp"
+                    android:layout_gravity="right"/>
+
+                <FrameLayout
+                    android:layout_marginTop="92dp"
+                    android:layout_marginStart="37dp"
+                    android:layout_marginEnd="37dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="453dp"
+                        android:background="@drawable/background_cart"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="25sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Стоимость"
+                        android:textColor="#333333"
+                        android:textSize="14sp"
+                        android:layout_marginTop="233dp"
+                        android:layout_marginStart="24dp"
+                        android:fontFamily="@font/medium"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0₽"
+                        android:layout_marginTop="233dp"
+                        android:layout_marginEnd="37dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/montserratbold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Доставка"
+                        android:textSize="14sp"
+                        android:textColor="#333333"
+                        android:fontFamily="@font/medium"
+                        android:layout_marginTop="262dp"
+                        android:layout_marginStart="24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="БЕСПЛАТНО"
+                        android:layout_marginTop="262dp"
+                        android:layout_marginEnd="37dp"
+                        android:layout_gravity="right"
+                        android:textColor="#289900"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/montserratbold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="75 баллов"
+                        android:textSize="14sp"
+                        android:textColor="#333333"
+                        android:fontFamily="@font/medium"
+                        android:layout_marginTop="291dp"
+                        android:layout_marginStart="24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Списать все / часть"
+                        android:textSize="14sp"
+                        android:textColor="#9C9C9C"
+                        android:fontFamily="@font/medium"
+                        android:layout_marginTop="291dp"
+                        android:layout_marginEnd="37dp"
+                        android:layout_gravity="right"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Промокод"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/medium"
+                        android:layout_marginTop="320dp"
+                        android:layout_marginStart="24dp"
+                        android:textColor="#333333"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ввести промокод"
+                        android:textSize="14sp"
+                        android:textColor="#9C9C9C"
+                        android:fontFamily="@font/medium"
+                        android:layout_marginTop="320dp"
+                        android:layout_marginEnd="37dp"
+                        android:layout_gravity="right"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D7D7D7"
+                        android:layout_marginTop="404dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="37dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Итоговая цена"
+                        android:textColor="#333333"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/medium"
+                        android:layout_marginTop="418dp"
+                        android:layout_marginStart="24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3070₽"
+                        android:layout_marginTop="418dp"
+                        android:layout_marginEnd="37dp"
+                        android:layout_gravity="right"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/montserratbold"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="471dp"
+                        android:background="@drawable/cart_back_button"
+                        android:drawableEnd="@drawable/icon_on_pressed"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="514dp"
+                        android:background="@drawable/cart_back_button"
+                        android:drawableEnd="@drawable/icon_on_pressed"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Заказать ко времени"
+                        android:textColor="#FE0602"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/medium"
+                        android:layout_marginTop="474dp"
+                        android:layout_marginStart="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Нужен обратный звонок для подтверждения заказа"
+                        android:fontFamily="@font/medium"
+                        android:textSize="10sp"
+                        android:layout_marginTop="518dp"
+                        android:textColor="#FE0602"
+                        android:layout_marginStart="30dp"/>
+                    
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:layout_marginBottom="27dp"
+                        android:background="@drawable/order_button_on"
+                        android:layout_marginTop="557dp"
+                        android:text="Заказать!"
+                        android:textAllCaps="false"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/medium"
+                        android:textColor="@color/white"/>
+
+                </FrameLayout>
+
+
+            </FrameLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</FrameLayout>

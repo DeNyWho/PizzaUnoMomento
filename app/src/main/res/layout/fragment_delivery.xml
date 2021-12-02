@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Delivery">
+
+    <ImageView
+        android:layout_marginTop="141dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="308dp"
+        android:layout_height="159dp"
+        android:src="@drawable/logo_1"/>
+
+    <ImageView
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:src="@drawable/call"
+        android:layout_marginTop="34dp"
+        android:layout_marginStart="30dp"/>
+    
+    <ImageView
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="41dp"
+        android:layout_gravity="right"
+        android:src="@drawable/shopping_cart" />
+
+    <ImageView
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:src="@drawable/call"
+        android:layout_marginTop="408dp"
+        android:layout_marginStart="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="411dp"
+        android:layout_marginStart="88dp"
+        android:text="Пушкин"
+        android:fontFamily="@font/medium"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ул. Генерала Хазова, д.8"
+        android:textColor="@color/black"
+        android:layout_marginTop="432dp"
+        android:layout_marginStart="88dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/montserrat"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="с 11.00 до 23.00"
+        android:textColor="@color/black"
+        android:layout_marginTop="451dp"
+        android:layout_marginStart="88dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/montserrat"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ежедневно"
+        android:textSize="10sp"
+        android:layout_marginTop="453dp"
+        android:layout_marginStart="185dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#F3F3F3"
+        android:layout_marginTop="527dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="49dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заказ принят"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:layout_marginTop="551dp"
+        android:layout_marginStart="88dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="51dp"
+        android:background="@drawable/cart_button_pressed"
+        android:paddingStart="3sp"
+        android:drawableLeft="@drawable/yes"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="589dp"
+        android:text="Отменить заказ"
+        android:fontFamily="@font/medium"
+        android:textSize="10sp"
+        android:layout_marginStart="49dp"
+        android:textColor="#FF4F00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:05:00"
+        android:layout_marginTop="589dp"
+        android:layout_marginEnd="49dp"
+        android:layout_gravity="right"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:textColor="#FF4F00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17:40"
+        android:fontFamily="@font/montserratbold"
+        android:layout_marginEnd="49dp"
+        android:layout_marginTop="551dp"
+        android:textColor="@color/black"
+        android:layout_gravity="right"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="28sp"
+        android:background="@drawable/cart_button_pressed"
+        android:layout_marginBottom="18sp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="37dp"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:text="Оставить отзыв"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</FrameLayout>

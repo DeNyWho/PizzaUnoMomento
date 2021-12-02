@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OrderBuy">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="ОПЛАТА"
+        android:textColor="#333333"
+        android:layout_marginTop="34dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/medium"/>
+
+    <ImageView
+        android:layout_marginStart="35dp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/arrowblack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Выберите ваш способ оплаты"
+        android:textColor="#333333"
+        android:layout_marginTop="106dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/medium"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="261dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="153dp"
+        android:text="Добавить новую карту"
+        android:textAllCaps="false"
+        android:textColor="#FE0602"
+        android:fontFamily="@font/medium"
+        android:drawableStart="@drawable/group_59"
+        android:paddingStart="8dp"
+        android:textSize="12sp"
+        android:background="@drawable/background_add_card"/>
+
+    <ImageView
+        android:layout_width="27dp"
+        android:layout_height="25sp"
+        android:src="@drawable/visa"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="55dp"/>
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:src="@drawable/apple"
+        android:layout_marginTop="276dp"
+        android:layout_marginStart="58dp"/>
+
+    <ImageView
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:src="@drawable/google"
+        android:layout_marginTop="322dp"
+        android:layout_marginStart="58dp"/>
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/nal"
+        android:layout_marginTop="364dp"
+        android:layout_marginStart="57dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Карта"
+        android:textColor="#000000"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginTop="233dp"
+        android:layout_marginStart="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple pay"
+        android:textColor="#000000"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginTop="279dp"
+        android:layout_marginStart="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google pay"
+        android:textColor="#000000"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginTop="324dp"
+        android:layout_marginStart="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Наличными при доставке"
+        android:textColor="#000000"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginTop="369dp"
+        android:layout_marginStart="90dp"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/add_card_button"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="75dp"
+        android:layout_gravity="right"
+        android:drawable="@drawable/icon_on_pressed"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/add_card_button"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="75dp"
+        android:layout_gravity="right"
+        android:drawable="@drawable/icon_on_pressed"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/add_card_button"
+        android:layout_marginTop="321dp"
+        android:layout_marginEnd="75dp"
+        android:layout_gravity="right"
+        android:drawable="@drawable/icon_on_pressed"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/add_card_button"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="75dp"
+        android:layout_gravity="right"
+        android:drawable="@drawable/icon_on_pressed"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/time"
+        android:layout_marginTop="429dp"
+        android:layout_marginStart="53dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ориентировочное время\nдоставки от 30 до 90\nминут. В зависимости от\nудаленности и дорожной\nситуации время может быть\nувеличено."
+        android:gravity="left"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginTop="431dp"
+        android:layout_marginStart="83dp"
+        android:textColor="#333333"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@drawable/cart_button_pressed"
+        android:text="Далее"
+        android:textAllCaps="false"
+        android:fontFamily="@font/medium"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="28dp"
+        android:layout_gravity="bottom"/>
+
+
+</FrameLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.profile"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Профиль"
+                android:textSize="24sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#333333"
+                android:layout_marginTop="34dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="446dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginTop="79dp"
+                android:layout_marginBottom="297dp"
+                android:background="@drawable/background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Анастасия Мануш"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginTop="39dp"
+                    android:layout_marginStart="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Имя и фамилия"
+                    android:textColor="#d8d8d8"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8 (911) 014 87 11"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginStart="14dp"/>
+
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Номер телефона"
+                    android:textColor="#d8d8d8"
+                    android:layout_marginTop="66dp"
+                    android:layout_marginStart="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="121sp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="#d8d8d8"
+                    android:layout_marginStart="14dp"
+                    android:text="Город"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Санкт-Петербург"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="14sp"
+                    android:layout_marginTop="135dp"
+                    android:layout_marginStart="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ул. Победы 24, кв.34, 2 этаж"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="14sp"
+                    android:layout_marginTop="190dp"
+                    android:layout_marginStart="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="176sp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="#d8d8d8"
+                    android:layout_marginStart="14dp"
+                    android:text="Адрес"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Изменить"
+                    android:textColor="#FE0602"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="14sp"
+                    android:layout_marginTop="225dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_gravity="right"/>
+
+                <ImageView
+                    android:layout_width="18sp"
+                    android:layout_height="18sp"
+                    android:src="@drawable/pencil_1"
+                    android:layout_marginTop="224dp"
+                    android:layout_marginEnd="95dp"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UNO-BONUS"
+                    android:textSize="14sp"
+                    android:layout_marginTop="301dp"
+                    android:layout_marginStart="14sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="300 бонусов"
+                    android:textColor="#FE0602"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginTop="301dp"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="17dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Уведомления"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="344dp"
+                    android:fontFamily="@font/montserrat"/>
+
+
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:layout_width="53dp"
+                    android:layout_height="26sp"
+                    android:thumb="@drawable/circle"
+                    android:layout_marginTop="341dp"
+                    android:layout_marginStart="265dp"
+                    android:layout_marginEnd="17dp"
+                    app:track="@drawable/switch_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="12sp"
+                    android:text="on"
+                    android:textColor="#FE0602"
+                    android:textStyle="bold"
+                    android:layout_marginTop="371dp"
+                    android:layout_marginEnd="37dp"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="265dp"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginTop="562dp"
+                android:background="@drawable/background">
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="История заказов"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginTop="15sp"
+                    android:layout_gravity="center_horizontal"/>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="47dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="16sp"/>
+                
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginStart="35dp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/arrowblack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Цезарь\nс курицей"
+        android:textColor="#333333"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="34dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/medium"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="41dp"
+        android:layout_gravity="right"
+        android:src="@drawable/shopping_cart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Айсберг с филе цыпленка, беконом,\nтоматами черри, хрустящими гренками,\nсыром Пармезан и оригинальным соусом"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="101dp"
+        android:textColor="#9C9C9C"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"/>
+    
+    <ImageView
+        android:layout_marginTop="159dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="14sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="346dp"
+        android:layout_height="302dp"
+        android:src="@drawable/seekpng_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="245 ГР"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:textColor="#333333"
+        android:layout_marginTop="461dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="СТОИМОСТЬ:"
+        android:textColor="#333333"
+        android:layout_marginBottom="73dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="45dp"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250₽"
+        android:textColor="#FE0602"
+        android:layout_marginBottom="29dp"
+        android:layout_marginStart="47dp"
+        android:fontFamily="@font/montserratbold"
+        android:textSize="36sp"
+        android:layout_gravity="bottom"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="102dp"
+        android:layout_height="49dp"
+        android:background = "@drawable/cart_button_pressed"
+        android:text="Добавить\nв корзину"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginBottom="38dp"
+        android:layout_marginEnd="43dp"
+        android:layout_gravity="bottom|end"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="108dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginEnd="146dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/card_item_button"
+        android:drawableTop="@drawable/plus"
+        android:paddingTop="11dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="108dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginEnd="209dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/card_item_button"
+        android:drawableTop="@drawable/minus"
+        android:paddingTop="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:fontFamily="@font/medium"
+        android:textSize="18sp"
+        android:layout_marginBottom="112dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginStart="184dp"
+        android:layout_marginEnd="184dp"/>
+
+</FrameLayout>
