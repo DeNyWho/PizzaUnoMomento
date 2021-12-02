@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ContactsFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="КОНТАКТЫ"
+        android:textColor="@color/black"
+        android:fontFamily="@font/medium"
+        android:textSize="24sp"
+        android:layout_marginTop="34dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Рестораны и доставка"
+        android:fontFamily="@font/medium"
+        android:textColor="#333333"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пушкин"
+        android:textSize="18sp"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="468dp"
+        android:layout_marginStart="44dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ул. Генерала Хазова, д.8"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="44dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Доставка в Пушкин (до пушкинского\nаэродрома),  пос.Шушары (Московский\nрайон) и Пулковское отделение\n(пос.Шушары)"
+        android:gravity="left"
+        android:textSize="12sp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"
+        android:layout_marginTop="528dp"
+        android:layout_marginStart="44dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="с 11.00 до 23.00 ежедневно"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="601dp"
+        android:layout_marginStart="44dp"/>
+
+    <ImageView
+        android:layout_width="26sp"
+        android:layout_height="26sp"
+        android:src="@drawable/instagram"
+        android:layout_marginBottom="38dp"
+        android:layout_marginStart="44sp"
+        android:layout_gravity="bottom"/>
+
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/vk"
+        android:layout_marginBottom="35dp"
+        android:layout_marginStart="89dp"
+        android:layout_gravity="bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Единый номер"
+        android:textColor="#333333"
+        android:fontFamily="@font/montserrat"
+        android:textSize="12sp"
+        android:layout_marginBottom="54dp"
+        android:layout_marginEnd="83dp"
+        android:layout_gravity="bottom|right"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="244-28-88"
+        android:textColor="#FE0602"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="86dp"
+        android:layout_gravity="bottom|right"/>
+    
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/placeholder"
+        android:layout_marginTop="434dp"
+        android:layout_marginStart="44dp"/>
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="437dp"
+        android:background="@drawable/contact_circle"/>
+    <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="437dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/contact_circle_pressed"/>
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginTop="437dp"
+        android:layout_gravity="right"
+        android:background="@drawable/contact_circle"/>
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item0"
+        android:title="Профиль"
+        android:icon="@drawable/user"/>
+
+    <item
+        android:id="@+id/item1"
+        android:title="Меню"
+        android:icon="@drawable/pizza"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Контакты"
+        android:icon="@drawable/phone"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="Скидки"
+        android:icon="@drawable/discount"/>
+
+</menu>

@@ -7,11 +7,6 @@
     android:background="#F2F2F2"
     tools:context=".fragments.Cart">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:overScrollMode="never">
-
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -111,8 +106,9 @@
                     android:layout_gravity="center_horizontal"/>
             </FrameLayout>
 
+
+
             <FrameLayout
-                android:visibility="gone"
                 android:layout_marginTop="87dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -141,6 +137,25 @@
                     android:layout_marginEnd="37dp"
                     android:layout_gravity="right"/>
 
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/appCompatSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginEnd="84dp"
+                    android:prompt="@string/app_name"
+                    android:spinnerMode="dropdown"
+                    app:spinnerMode="bottomsheet" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D7D7D7"
+                    android:layout_marginTop="78dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginEnd="66dp"/>
+
                 <FrameLayout
                     android:layout_marginTop="92dp"
                     android:layout_marginStart="37dp"
@@ -150,13 +165,13 @@
 
                     <View
                         android:layout_width="match_parent"
-                        android:layout_height="453dp"
+                        android:layout_height="395dp"
                         android:background="@drawable/background_cart"/>
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:layout_width="match_parent"
-                        android:layout_height="220dp"
-                        android:layout_marginTop="36dp"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="28dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginEnd="25sp"/>
 
@@ -166,7 +181,7 @@
                         android:text="Стоимость"
                         android:textColor="#333333"
                         android:textSize="14sp"
-                        android:layout_marginTop="233dp"
+                        android:layout_marginTop="197dp"
                         android:layout_marginStart="24dp"
                         android:fontFamily="@font/medium"/>
 
@@ -174,7 +189,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0₽"
-                        android:layout_marginTop="233dp"
+                        android:layout_marginTop="197dp"
                         android:layout_marginEnd="37dp"
                         android:layout_gravity="right"
                         android:textSize="14sp"
@@ -189,14 +204,14 @@
                         android:textSize="14sp"
                         android:textColor="#333333"
                         android:fontFamily="@font/medium"
-                        android:layout_marginTop="262dp"
+                        android:layout_marginTop="222dp"
                         android:layout_marginStart="24dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="БЕСПЛАТНО"
-                        android:layout_marginTop="262dp"
+                        android:layout_marginTop="222dp"
                         android:layout_marginEnd="37dp"
                         android:layout_gravity="right"
                         android:textColor="#289900"
@@ -211,7 +226,7 @@
                         android:textSize="14sp"
                         android:textColor="#333333"
                         android:fontFamily="@font/medium"
-                        android:layout_marginTop="291dp"
+                        android:layout_marginTop="251dp"
                         android:layout_marginStart="24dp"/>
 
                     <TextView
@@ -221,7 +236,7 @@
                         android:textSize="14sp"
                         android:textColor="#9C9C9C"
                         android:fontFamily="@font/medium"
-                        android:layout_marginTop="291dp"
+                        android:layout_marginTop="251dp"
                         android:layout_marginEnd="37dp"
                         android:layout_gravity="right"/>
 
@@ -231,7 +246,7 @@
                         android:text="Промокод"
                         android:textSize="14sp"
                         android:fontFamily="@font/medium"
-                        android:layout_marginTop="320dp"
+                        android:layout_marginTop="291dp"
                         android:layout_marginStart="24dp"
                         android:textColor="#333333"/>
 
@@ -242,7 +257,7 @@
                         android:textSize="14sp"
                         android:textColor="#9C9C9C"
                         android:fontFamily="@font/medium"
-                        android:layout_marginTop="320dp"
+                        android:layout_marginTop="291dp"
                         android:layout_marginEnd="37dp"
                         android:layout_gravity="right"/>
 
@@ -250,7 +265,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="#D7D7D7"
-                        android:layout_marginTop="404dp"
+                        android:layout_marginTop="350dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginEnd="37dp"/>
 
@@ -261,14 +276,14 @@
                         android:textColor="#333333"
                         android:textSize="14sp"
                         android:fontFamily="@font/medium"
-                        android:layout_marginTop="418dp"
+                        android:layout_marginTop="358dp"
                         android:layout_marginStart="24dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="3070₽"
-                        android:layout_marginTop="418dp"
+                        android:layout_marginTop="358dp"
                         android:layout_marginEnd="37dp"
                         android:layout_gravity="right"
                         android:textSize="14sp"
@@ -279,14 +294,14 @@
                     <androidx.appcompat.widget.AppCompatButton
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:layout_marginTop="471dp"
+                        android:layout_marginTop="411dp"
                         android:background="@drawable/cart_back_button"
                         android:drawableEnd="@drawable/icon_on_pressed"/>
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:layout_marginTop="514dp"
+                        android:layout_marginTop="444dp"
                         android:background="@drawable/cart_back_button"
                         android:drawableEnd="@drawable/icon_on_pressed"/>
 
@@ -297,7 +312,7 @@
                         android:textColor="#FE0602"
                         android:textSize="10sp"
                         android:fontFamily="@font/medium"
-                        android:layout_marginTop="474dp"
+                        android:layout_marginTop="414dp"
                         android:layout_marginStart="30dp"/>
 
                     <TextView
@@ -306,7 +321,7 @@
                         android:text="Нужен обратный звонок для подтверждения заказа"
                         android:fontFamily="@font/medium"
                         android:textSize="10sp"
-                        android:layout_marginTop="518dp"
+                        android:layout_marginTop="448dp"
                         android:textColor="#FE0602"
                         android:layout_marginStart="30dp"/>
                     
@@ -314,8 +329,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="41dp"
                         android:layout_marginBottom="27dp"
+                        android:layout_gravity="bottom"
                         android:background="@drawable/order_button_on"
-                        android:layout_marginTop="557dp"
                         android:text="Заказать!"
                         android:textAllCaps="false"
                         android:textSize="18sp"
@@ -327,6 +342,5 @@
 
             </FrameLayout>
         </FrameLayout>
-    </ScrollView>
 
 </FrameLayout>

@@ -3,16 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:overScrollMode="never"
-        android:scrollbars="none">
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
             <ImageView
                 android:layout_marginStart="35dp"
                 android:layout_width="20sp"
@@ -53,8 +43,8 @@
                 android:textSize="14sp"/>
 
             <ImageView
-                android:layout_width="300dp"
-                android:layout_height="300dp"
+                android:layout_width="236dp"
+                android:layout_height="236dp"
                 android:src="@drawable/imgbin_hawaiian_pizza_ham_pineapple_pizza_capricciosa_png_1"
                 android:layout_marginTop="159dp"
                 android:layout_gravity="center_horizontal"/>
@@ -64,7 +54,7 @@
                 android:layout_height="1dp"
                 android:layout_marginEnd="44dp"
                 android:layout_marginStart="237dp"
-                android:layout_marginTop="459dp"
+                android:layout_marginTop="409dp"
                 android:background="#D7D7D7"/>
 
             <TextView
@@ -74,7 +64,7 @@
                 android:fontFamily="@font/medium"
                 android:textSize="12sp"
                 android:textColor="#D7D7D7"
-                android:layout_marginTop="451dp"
+                android:layout_marginTop="401dp"
                 android:layout_gravity="center_horizontal"/>
 
             <View
@@ -83,14 +73,51 @@
                 android:layout_marginStart="44dp"
                 android:layout_marginEnd="237dp"
                 android:background="#D7D7D7"
-                android:layout_marginTop="459dp"/>
+                android:layout_marginTop="409dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="98dp"
+            android:layout_height="39dp"
+            android:background="@drawable/cart_button_pressed"
+            android:layout_marginTop="425dp"
+            android:text="28 см\nСтандарт"
+            android:textAllCaps="false"
+            android:fontFamily="@font/medium"
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="44dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="98dp"
+        android:layout_height="39dp"
+        android:background="@drawable/button_card_item"
+        android:layout_marginTop="425dp"
+        android:text="38 см\nБольшая"
+        android:textAllCaps="false"
+        android:fontFamily="@font/medium"
+        android:textSize="13dp"
+        android:textColor="#333333"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="98dp"
+        android:layout_height="39dp"
+        android:background="@drawable/button_card_item"
+        android:layout_marginTop="425dp"
+        android:text="45 см\nМега"
+        android:textAllCaps="false"
+        android:fontFamily="@font/medium"
+        android:textSize="13dp"
+        android:textColor="#333333"
+        android:layout_marginEnd="43dp"
+        android:layout_gravity="right"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginEnd="44dp"
                 android:layout_marginStart="237dp"
-                android:layout_marginTop="536dp"
+                android:layout_marginTop="477dp"
                 android:background="#D7D7D7"/>
 
             <TextView
@@ -100,8 +127,33 @@
                 android:fontFamily="@font/medium"
                 android:textSize="12sp"
                 android:textColor="#D7D7D7"
-                android:layout_marginTop="528dp"
+                android:layout_marginTop="467dp"
                 android:layout_gravity="center_horizontal"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="142dp"
+                android:layout_height="28dp"
+                android:background="@drawable/cart_button_pressed"
+                android:layout_marginTop="491dp"
+                android:text="Пышное"
+                android:textAllCaps="false"
+                android:fontFamily="@font/medium"
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:layout_marginEnd="43dp"
+                android:layout_gravity="right"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="142dp"
+                android:layout_height="28dp"
+                android:background="@drawable/button_card_item"
+                android:layout_marginTop="491dp"
+                android:text="Тонкое"
+                android:textAllCaps="false"
+                android:fontFamily="@font/medium"
+                android:textSize="14dp"
+                android:textColor="#333333"
+                android:layout_marginStart="43dp"/>
 
             <View
                 android:layout_width="match_parent"
@@ -109,14 +161,14 @@
                 android:layout_marginStart="44dp"
                 android:layout_marginEnd="237dp"
                 android:background="#D7D7D7"
-                android:layout_marginTop="536dp"/>
+                android:layout_marginTop="477dp"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginEnd="44dp"
                 android:layout_marginStart="237dp"
-                android:layout_marginTop="599dp"
+                android:layout_marginTop="535dp"
                 android:background="#D7D7D7"/>
 
             <TextView
@@ -126,7 +178,7 @@
                 android:fontFamily="@font/medium"
                 android:textSize="12sp"
                 android:textColor="#D7D7D7"
-                android:layout_marginTop="591dp"
+                android:layout_marginTop="525dp"
                 android:layout_gravity="center_horizontal"/>
 
             <View
@@ -135,77 +187,99 @@
                 android:layout_marginStart="44dp"
                 android:layout_marginEnd="237dp"
                 android:background="#D7D7D7"
-                android:layout_marginTop="599dp"/>
+                android:layout_marginTop="535dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="СТОИМОСТЬ:"
-                android:textColor="#333333"
-                android:layout_marginBottom="73dp"
-                android:layout_gravity="bottom"
-                android:layout_marginStart="45dp"
-                android:fontFamily="@font/medium"
-                android:textSize="14sp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:background="@drawable/cart_button_pressed"
+        android:layout_marginTop="551dp"
+        android:text="Цезарь"
+        android:textAllCaps="false"
+        android:fontFamily="@font/medium"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="43dp"
+        android:layout_gravity="right"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="200₽"
-                android:textColor="#FE0602"
-                android:layout_marginBottom="29dp"
-                android:layout_marginStart="47dp"
-                android:fontFamily="@font/montserratbold"
-                android:textSize="36sp"
-                android:layout_gravity="bottom"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:background="@drawable/button_card_item"
+        android:layout_marginTop="551dp"
+        android:text="Томатный"
+        android:textAllCaps="false"
+        android:fontFamily="@font/medium"
+        android:textSize="14dp"
+        android:textColor="#333333"
+        android:layout_marginStart="43dp"/>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="102dp"
-                android:layout_height="49dp"
-                android:background = "@drawable/cart_button_pressed"
-                android:text="Добавить\nв корзину"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:fontFamily="@font/medium"
-                android:textSize="14sp"
-                android:layout_marginBottom="38dp"
-                android:layout_marginEnd="43dp"
-                android:layout_gravity="bottom|end"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="СТОИМОСТЬ:"
+        android:textColor="#333333"
+        android:layout_marginBottom="57dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="26dp"
+        android:fontFamily="@font/medium"
+        android:textSize="10sp"/>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginBottom="108dp"
-                android:layout_marginStart="209dp"
-                android:layout_marginEnd="146dp"
-                android:layout_gravity="bottom|right"
-                android:background="@drawable/card_item_button"
-                android:drawableTop="@drawable/plus"
-                android:paddingTop="11dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200₽"
+        android:textColor="#FE0602"
+        android:layout_marginBottom="29dp"
+        android:layout_marginStart="26dp"
+        android:fontFamily="@font/montserratbold"
+        android:textSize="26sp"
+        android:layout_gravity="bottom"/>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="674dp"
-                android:layout_marginBottom="108dp"
-                android:layout_marginStart="146dp"
-                android:layout_marginEnd="209dp"
-                android:layout_gravity="bottom"
-                android:background="@drawable/card_item_button"
-                android:drawableTop="@drawable/minus"
-                android:paddingTop="14dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:background = "@drawable/cart_button_pressed"
+        android:text="Добавить\nв корзину"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/medium"
+        android:textSize="10sp"
+        android:layout_marginBottom="38dp"
+        android:layout_marginEnd="25dp"
+        android:layout_gravity="bottom|end"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1"
-                android:fontFamily="@font/medium"
-                android:textSize="18sp"
-                android:layout_marginBottom="112dp"
-                android:layout_gravity="center_horizontal|bottom"
-                android:layout_marginStart="184dp"
-                android:layout_marginEnd="184dp"/>
-        </FrameLayout>
-    </ScrollView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="108dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginEnd="156dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/card_item_button"
+        android:drawableTop="@drawable/plus"
+        android:paddingTop="7dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="108dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="209dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/card_item_button"
+        android:drawableTop="@drawable/minus"
+        android:paddingTop="9dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginBottom="112dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginStart="184dp"
+        android:layout_marginEnd="184dp"/>
 
 </FrameLayout>

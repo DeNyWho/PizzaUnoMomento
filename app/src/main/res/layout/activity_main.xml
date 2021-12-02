@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        app:backgroundColor="@color/white"
+        app:iconTint="#D7D7D7"
+        app:iconTintActive="#FFFFFF"
+        app:indicatorColor="#FE0602"
+        app:indicatorRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

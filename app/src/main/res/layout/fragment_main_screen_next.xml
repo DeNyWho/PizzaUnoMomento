@@ -20,22 +20,64 @@
         android:layout_marginEnd="41dp"
         android:layout_gravity="right"
         android:src="@drawable/shopping_cart" />
-
-    <com.ruslankishai.unmaterialtab.tabs.RoundTabLayout
-        android:layout_marginTop="28dp"
-        android:layout_marginStart="61dp"
-        android:layout_marginEnd="81dp"
-        android:id="@+id/custom_tab_view"
+    
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="71dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:accent="#FE0602"
-        app:cornerRadius="5"
-        app:withStroke="false" />
+        android:layout_marginEnd="81dp"
+        android:layout_height="35dp">
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewPager"
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:text="Пицца"
+                    android:fontFamily="@font/medium"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/cart_button_pressed"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="75dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="match_parent"
+                    android:text="Пицца"
+                    android:fontFamily="@font/medium"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/pressed_grey"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="75dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="match_parent"
+                    android:text="Пицца"
+                    android:fontFamily="@font/medium"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/pressed_grey"/>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="80dp"
+        tools:listitem="@layout/main_screen_recycler_item"/>
 
 </FrameLayout>
