@@ -129,8 +129,9 @@
         android:layout_marginTop="551dp"
         android:textColor="@color/black"
         android:layout_gravity="right"/>
-    
+
     <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rate"
         android:layout_width="match_parent"
         android:layout_height="28sp"
         android:background="@drawable/cart_button_pressed"

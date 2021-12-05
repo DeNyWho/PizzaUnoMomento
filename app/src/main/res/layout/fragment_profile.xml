@@ -196,6 +196,7 @@
                 android:layout_marginStart="38dp"
                 android:layout_marginEnd="37dp"
                 android:layout_marginTop="562dp"
+                android:layout_marginBottom="70dp"
                 android:background="@drawable/background">
                 
                 <TextView
@@ -214,6 +215,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="47dp"
+                    tools:listitem="@layout/item_recycler_profile"
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="16sp"/>
                 
@@ -222,7 +224,5 @@
         </FrameLayout>
 
     </ScrollView>
-
-
 
 </FrameLayout>

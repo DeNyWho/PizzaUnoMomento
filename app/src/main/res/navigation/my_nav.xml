@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/my_nav"
+            app:startDestination="@id/reg_next">
+    <fragment android:id="@+id/reg_next" android:name="com.example.pizzaunomomento.fragments.Reg_next"
+              android:label="fragment_reg_next" tools:layout="@layout/fragment_reg_next">
+        <action android:id="@+id/action_reg_next_to_registration3" app:destination="@id/registration3"/>
+    </fragment>
+    <fragment android:id="@+id/registration3" android:name="com.example.pizzaunomomento.fragments.Registration"
+              android:label="fragment_registration" tools:layout="@layout/fragment_registration">
+        <action android:id="@+id/action_registration3_to_nextReg2" app:destination="@id/nextReg2"/>
+    </fragment>
+    <fragment android:id="@+id/nextReg2" android:name="com.example.pizzaunomomento.fragments.nextReg"
+              android:label="fragment_next_reg" tools:layout="@layout/fragment_next_reg">
+        <action android:id="@+id/action_nextReg2_to_mainScreen" app:destination="@id/mainScreen"/>
+    </fragment>
+    <fragment android:id="@+id/mainScreen" android:name="com.example.pizzaunomomento.fragments.MainScreen"
+              android:label="fragment_main_screen" tools:layout="@layout/fragment_main_screen">
+        <action android:id="@+id/action_mainScreen_to_cart2" app:destination="@id/cart2"/>
+        <action android:id="@+id/action_mainScreen_to_mainScreenNextMenu" app:destination="@id/mainScreenNextMenu"/>
+        <action android:id="@+id/action_mainScreen_to_stocks" app:destination="@id/stocks"/>
+        <action android:id="@+id/action_mainScreen_to_profile2" app:destination="@id/profile2"/>
+        <action android:id="@+id/action_mainScreen_to_mainScreenNextMenu2" app:destination="@id/mainScreenNextMenu"/>
+        <action android:id="@+id/action_mainScreen_to_contactsFragment2" app:destination="@id/contactsFragment2"/>
+        <action android:id="@+id/action_mainScreen_to_contactsFragment22" app:destination="@id/contactsFragment2"/>
+    </fragment>
+    <fragment android:id="@+id/cart2" android:name="com.example.pizzaunomomento.fragments.Cart"
+              android:label="fragment_cart" tools:layout="@layout/fragment_cart">
+        <action android:id="@+id/action_cart2_to_orderBuy2" app:destination="@id/orderBuy2"/>
+        <action android:id="@+id/action_cart2_to_mainScreen" app:destination="@id/mainScreen"/>
+    </fragment>
+    <fragment android:id="@+id/mainScreenNextMenu"
+              android:name="com.example.pizzaunomomento.fragments.MainScreenNextMenu"
+              android:label="fragment_main_screen_next_menu" tools:layout="@layout/fragment_main_screen_next_menu">
+        <action android:id="@+id/action_mainScreenNextMenu_to_mainScreenNext" app:destination="@id/mainScreenNext"/>
+        <action android:id="@+id/action_mainScreenNextMenu_to_stocks" app:destination="@id/stocks"/>
+        <action android:id="@+id/action_mainScreenNextMenu_to_profile2" app:destination="@id/profile2"/>
+        <action android:id="@+id/action_mainScreenNextMenu_to_cart2" app:destination="@id/cart2"/>
+        <action android:id="@+id/action_mainScreenNextMenu_to_contactsFragment2"
+                app:destination="@id/contactsFragment2"/>
+    </fragment>
+    <fragment android:id="@+id/mainScreenNext" android:name="com.example.pizzaunomomento.fragments.MainScreenNext"
+              android:label="fragment_main_screen_next" tools:layout="@layout/fragment_main_screen_next"/>
+    <fragment android:id="@+id/stocks" android:name="com.example.pizzaunomomento.fragments.stocks"
+              android:label="fragment_stocks" tools:layout="@layout/fragment_stocks">
+        <action android:id="@+id/action_stocks_to_mainScreenNextMenu" app:destination="@id/mainScreenNextMenu"/>
+        <action android:id="@+id/action_stocks_to_cart2" app:destination="@id/cart2"/>
+        <action android:id="@+id/action_stocks_to_profile2" app:destination="@id/profile2"/>
+        <action android:id="@+id/action_stocks_to_cart22" app:destination="@id/cart2"/>
+        <action android:id="@+id/action_stocks_to_mainScreenNextMenu2" app:destination="@id/mainScreenNextMenu"/>
+        <action android:id="@+id/action_stocks_to_contactsFragment2" app:destination="@id/contactsFragment2"/>
+    </fragment>
+    <fragment android:id="@+id/profile2" android:name="com.example.pizzaunomomento.fragments.profile"
+              android:label="fragment_profile" tools:layout="@layout/fragment_profile">
+        <action android:id="@+id/action_profile2_to_mainScreen" app:destination="@id/mainScreen"/>
+        <action android:id="@+id/action_profile2_to_cart2" app:destination="@id/cart2"/>
+        <action android:id="@+id/action_profile2_to_stocks" app:destination="@id/stocks"/>
+        <action android:id="@+id/action_profile2_to_mainScreenNextMenu" app:destination="@id/mainScreenNextMenu"/>
+        <action android:id="@+id/action_profile2_to_contactsFragment2" app:destination="@id/contactsFragment2"/>
+    </fragment>
+    <fragment android:id="@+id/orderBuy2" android:name="com.example.pizzaunomomento.fragments.OrderBuy"
+              android:label="fragment_order_buy" tools:layout="@layout/fragment_order_buy">
+        <action android:id="@+id/action_orderBuy2_to_orderBuyTwo" app:destination="@id/orderBuyTwo"/>
+        <action android:id="@+id/action_orderBuy2_to_delivery" app:destination="@id/delivery"/>
+    </fragment>
+    <fragment android:id="@+id/contactsFragment2" android:name="com.example.pizzaunomomento.fragments.ContactsFragment"
+              android:label="fragment_contacts" tools:layout="@layout/fragment_contacts">
+        <action android:id="@+id/action_contactsFragment2_to_profile2" app:destination="@id/profile2"/>
+        <action android:id="@+id/action_contactsFragment2_to_mainScreen" app:destination="@id/mainScreen"/>
+        <action android:id="@+id/action_contactsFragment2_to_stocks" app:destination="@id/stocks"/>
+        <action android:id="@+id/action_contactsFragment2_to_mainScreenNextMenu"
+                app:destination="@id/mainScreenNextMenu"/>
+    </fragment>
+    <fragment android:id="@+id/delivery" android:name="com.example.pizzaunomomento.fragments.Delivery"
+              android:label="fragment_delivery" tools:layout="@layout/fragment_delivery"/>
+    <fragment android:id="@+id/orderBuyTwo" android:name="com.example.pizzaunomomento.fragments.OrderBuyTwo"
+              android:label="fragment_order_buy_two" tools:layout="@layout/fragment_order_buy_two">
+        <action android:id="@+id/action_orderBuyTwo_to_delivery2" app:destination="@id/delivery"/>
+    </fragment>
+</navigation>

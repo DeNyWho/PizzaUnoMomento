@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_marginTop="208dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_1" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_marginStart="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/animation"
+        android:layout_marginBottom="93dp"
+        android:layout_gravity="bottom"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="93dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="75dp"
+        android:background="#58BE0D"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textColor="#58BE0D"
+        android:layout_marginBottom="75dp"
+        android:textSize="12sp"
+        android:layout_marginStart="93dp"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/montserratbold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100%"
+        android:textColor="#58BE0D"
+        android:layout_marginBottom="75dp"
+        android:textSize="12sp"
+        android:layout_marginEnd="76dp"
+        android:layout_gravity="bottom|right"
+        android:fontFamily="@font/montserratbold"/>
+</FrameLayout>

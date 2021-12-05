@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".fragments.ContactsFragment">
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".fragments.ContactsFragment">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background = "@drawable/group_21"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="КОНТАКТЫ"
-        android:textColor="@color/black"
-        android:fontFamily="@font/medium"
-        android:textSize="24sp"
-        android:layout_marginTop="34dp"
-        android:layout_gravity="center_horizontal"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="КОНТАКТЫ"
+            android:textColor="@color/black"
+            android:fontFamily="@font/medium"
+            android:textSize="24sp"
+            android:layout_marginTop="34dp"
+            android:layout_gravity="center_horizontal"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,7 +37,7 @@
         android:textSize="18sp"
         android:fontFamily="@font/medium"
         android:textColor="@color/black"
-        android:layout_marginTop="468dp"
+        android:layout_marginTop="428dp"
         android:layout_marginStart="44dp"/>
 
     <TextView
@@ -43,7 +47,7 @@
         android:textSize="14sp"
         android:fontFamily="@font/medium"
         android:textColor="@color/black"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="460dp"
         android:layout_marginStart="44dp"/>
 
     <TextView
@@ -54,7 +58,7 @@
         android:textSize="12sp"
         android:fontFamily="@font/montserrat"
         android:textColor="@color/black"
-        android:layout_marginTop="528dp"
+        android:layout_marginTop="488dp"
         android:layout_marginStart="44dp"/>
 
     <TextView
@@ -64,14 +68,14 @@
         android:textSize="14sp"
         android:fontFamily="@font/medium"
         android:textColor="@color/black"
-        android:layout_marginTop="601dp"
+        android:layout_marginTop="561dp"
         android:layout_marginStart="44dp"/>
 
     <ImageView
         android:layout_width="26sp"
         android:layout_height="26sp"
         android:src="@drawable/instagram"
-        android:layout_marginBottom="38dp"
+        android:layout_marginBottom="78dp"
         android:layout_marginStart="44sp"
         android:layout_gravity="bottom"/>
 
@@ -79,7 +83,7 @@
         android:layout_width="34dp"
         android:layout_height="34dp"
         android:src="@drawable/vk"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="75dp"
         android:layout_marginStart="89dp"
         android:layout_gravity="bottom"/>
 
@@ -90,7 +94,7 @@
         android:textColor="#333333"
         android:fontFamily="@font/montserrat"
         android:textSize="12sp"
-        android:layout_marginBottom="54dp"
+        android:layout_marginBottom="104dp"
         android:layout_marginEnd="83dp"
         android:layout_gravity="bottom|right"/>
 
@@ -101,7 +105,7 @@
         android:textColor="#FE0602"
         android:textSize="14sp"
         android:fontFamily="@font/medium"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="86dp"
         android:layout_marginEnd="86dp"
         android:layout_gravity="bottom|right"/>
     
@@ -109,19 +113,19 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:src="@drawable/placeholder"
-        android:layout_marginTop="434dp"
+        android:layout_marginTop="384dp"
         android:layout_marginStart="44dp"/>
 
     <View
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginStart="163dp"
-        android:layout_marginTop="437dp"
+        android:layout_marginTop="387dp"
         android:background="@drawable/contact_circle"/>
     <View
         android:layout_width="15dp"
         android:layout_height="15dp"
-        android:layout_marginTop="437dp"
+        android:layout_marginTop="387dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/contact_circle_pressed"/>
 
@@ -129,7 +133,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginEnd="163dp"
-        android:layout_marginTop="437dp"
+        android:layout_marginTop="387dp"
         android:layout_gravity="right"
         android:background="@drawable/contact_circle"/>
 

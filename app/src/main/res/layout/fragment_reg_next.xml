@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Reg_next">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:background="@drawable/vdxy7xrr7ge"/>
+
+    <ImageView
+        android:layout_marginTop="576dp"
+        android:layout_marginStart="33dp"
+        android:layout_width="26sp"
+        android:layout_height="26sp"
+        app:srcCompat="@drawable/placeholder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Укажите адрес\nдоставки"
+        android:fontFamily="@font/medium"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="32dp"
+        android:layout_gravity="right"
+        android:gravity="right"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="24sp"
+        android:background="@drawable/cart_button_pressed"
+        android:layout_marginBottom="26sp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="37dp"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:text="Далее"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#D7D7D7"
+        android:textColor="#333333"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="32dp"
+        android:paddingEnd="15dp"
+        android:drawableEnd="@drawable/exit"/>
+
+
+</FrameLayout>

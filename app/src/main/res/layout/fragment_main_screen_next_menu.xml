@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".fragments.MainScreenNextMenu">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="89dp"
+            android:layout_width="110dp"
+            android:layout_marginStart="30dp"
+            android:layout_height="57dp"
+            android:src="@drawable/logo_1"/>
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:src="@drawable/call"
+            android:layout_marginTop="34dp"
+            android:layout_marginStart="30dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="41dp"
+            android:layout_gravity="right"
+            android:src="@drawable/shopping_cart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="МЕНЮ"
+            android:textColor="#333333"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="34dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/medium"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginTop="218dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/cart_button_pressed">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Меню"
+                android:fontFamily="@font/montserratbold"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Профиль"
+                android:fontFamily="@font/montserratbold"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Контакты"
+                android:fontFamily="@font/montserratbold"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Акции"
+                android:fontFamily="@font/montserratbold"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="264dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="37dp">
+
+        <FrameLayout
+                android:layout_width="100dp"
+                android:background="@drawable/cart_button_pressed"
+                android:layout_height="140dp">
+
+            <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/piz"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="26dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="17dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/next_butt_men"
+                    android:layout_marginTop="99dp"
+                    android:layout_marginStart="32dp"
+                    android:paddingTop="10dp"
+                    android:drawableTop="@drawable/descendant_arrow_angle_1"
+                    android:layout_marginEnd="33dp"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:layout_width="100dp"
+                android:background="@drawable/background"
+                android:layout_marginStart="22dp"
+                android:layout_height="140dp">
+
+            <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/piz"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="26dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="17dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/cart_button_pressed"
+                    android:layout_marginTop="99dp"
+                    android:layout_marginStart="32dp"
+                    android:paddingTop="10dp"
+                    android:drawableTop="@drawable/descendant_arrow_angle_2"
+                    android:layout_marginEnd="33dp"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:layout_width="100dp"
+                android:background="@drawable/background"
+                android:layout_marginStart="22dp"
+                android:layout_height="140dp">
+
+            <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/piz"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="26dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="17dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/cart_button_pressed"
+                    android:layout_marginTop="99dp"
+                    android:layout_marginStart="32dp"
+                    android:paddingTop="10dp"
+                    android:drawableTop="@drawable/descendant_arrow_angle_2"
+                    android:layout_marginEnd="33dp"/>
+        </FrameLayout>
+    </LinearLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="442dp"
+        android:layout_marginStart="14sp"
+        android:layout_marginEnd="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_recycler"/>
+
+
+    <View
+        android:layout_marginTop="417dp"
+        android:layout_marginStart="160dp"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/contact_circle_pressed"/>
+
+    <View
+        android:layout_marginTop="417dp"
+        android:layout_marginStart="178dp"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/contact_circle_off"/>
+
+    <View
+        android:layout_marginTop="417dp"
+        android:layout_marginStart="196dp"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/contact_circle_off"/>
+
+    <View
+        android:layout_marginTop="417dp"
+        android:layout_marginStart="214dp"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/contact_circle_off"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Поиск..."
+        android:textColor="#333333"
+        android:fontFamily="@font/montserrat"
+        android:textSize="14sp"
+        android:textColorHint="#D7D7D7"
+        android:paddingStart="35dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:backgroundTint="#D7D7D7"
+        android:layout_marginTop="163dp"/>
+
+    <ImageView
+        android:layout_width="14sp"
+        android:layout_height="14sp"
+        android:src="@drawable/magnifying_glass__1__1"
+        android:layout_marginTop="176dp"
+        android:layout_marginStart="40dp"/>
+</FrameLayout>

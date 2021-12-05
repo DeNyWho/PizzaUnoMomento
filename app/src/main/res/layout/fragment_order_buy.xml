@@ -33,6 +33,7 @@
         android:fontFamily="@font/medium"/>
 
     <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
         android:layout_width="261dp"
         android:layout_height="35dp"
         android:layout_gravity="center_horizontal"
@@ -169,6 +170,7 @@
         android:textColor="#333333"/>
     
     <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next"
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:background="@drawable/cart_button_pressed"

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.reg_next">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_91"/>
+
+    <ImageView
+        android:layout_marginTop="456dp"
+        android:layout_marginStart="33dp"
+        android:layout_width="26sp"
+        android:layout_height="26sp"
+        app:srcCompat="@drawable/placeholder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Укажите адрес\nдоставки"
+        android:fontFamily="@font/medium"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="32dp"
+        android:layout_gravity="right"
+        android:gravity="right"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="24sp"
+        android:background="@drawable/cart_button_pressed"
+        android:layout_marginBottom="26sp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="37dp"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:text="Далее"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:backgroundTint="#D7D7D7"
+        android:textColor="#333333"
+        android:fontFamily="@font/medium"
+        android:textSize="14sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="32dp"
+        android:paddingEnd="15dp"
+        android:drawableEnd="@drawable/exit"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Кв./Офис"
+        android:backgroundTint="#D7D7D7"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="300dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:textColor="#333333"
+        android:textColorHint="#33333333"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Подъезд"
+        android:backgroundTint="#D7D7D7"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="220dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:textColor="#333333"
+        android:textColorHint="#33333333"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Домофон"
+        android:backgroundTint="#D7D7D7"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginEnd="130dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:textColor="#333333"
+        android:textColorHint="#33333333"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Этаж"
+        android:backgroundTint="#D7D7D7"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginEnd="41dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/medium"
+        android:textColor="#333333"
+        android:textColorHint="#33333333"/>
+
+
+</FrameLayout>

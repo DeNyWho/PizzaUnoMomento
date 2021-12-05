@@ -23,6 +23,7 @@
                 android:fontFamily="@font/medium"/>
 
             <ImageView
+                    android:id="@+id/back"
                 android:layout_marginStart="35dp"
                 android:layout_width="25sp"
                 android:layout_height="25sp"
@@ -230,6 +231,7 @@
                         android:layout_marginStart="24dp"/>
 
                     <TextView
+                            android:id="@+id/scores"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Списать все / часть"
@@ -251,6 +253,7 @@
                         android:textColor="#333333"/>
 
                     <TextView
+                            android:id="@+id/promo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Ввести промокод"
@@ -306,6 +309,7 @@
                         android:drawableEnd="@drawable/icon_on_pressed"/>
 
                     <TextView
+                            android:id="@+id/by_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Заказать ко времени"
@@ -326,6 +330,7 @@
                         android:layout_marginStart="30dp"/>
                     
                     <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/next"
                         android:layout_width="match_parent"
                         android:layout_height="41dp"
                         android:layout_marginBottom="27dp"
@@ -342,5 +347,7 @@
 
             </FrameLayout>
         </FrameLayout>
+
+
 
 </FrameLayout>

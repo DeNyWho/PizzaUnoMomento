@@ -60,6 +60,7 @@
         android:layout_marginStart="121dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next"
         android:layout_width="60sp"
         android:layout_height="60sp"
         android:background="@drawable/group_54"
