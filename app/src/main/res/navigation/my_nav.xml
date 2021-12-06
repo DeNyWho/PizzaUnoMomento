@@ -50,6 +50,8 @@
         <action android:id="@+id/action_stocks_to_cart22" app:destination="@id/cart2"/>
         <action android:id="@+id/action_stocks_to_mainScreenNextMenu2" app:destination="@id/mainScreenNextMenu"/>
         <action android:id="@+id/action_stocks_to_contactsFragment2" app:destination="@id/contactsFragment2"/>
+        <action android:id="@+id/action_stocks_to_mainScreen" app:destination="@id/mainScreen"/>
+        <action android:id="@+id/action_stocks_to_cart23" app:destination="@id/cart2"/>
     </fragment>
     <fragment android:id="@+id/profile2" android:name="com.example.pizzaunomomento.fragments.profile"
               android:label="fragment_profile" tools:layout="@layout/fragment_profile">
@@ -77,5 +79,9 @@
     <fragment android:id="@+id/orderBuyTwo" android:name="com.example.pizzaunomomento.fragments.OrderBuyTwo"
               android:label="fragment_order_buy_two" tools:layout="@layout/fragment_order_buy_two">
         <action android:id="@+id/action_orderBuyTwo_to_delivery2" app:destination="@id/delivery"/>
+    </fragment>
+    <fragment android:id="@+id/fifty_next" android:name="com.example.pizzaunomomento.fragments.fifty_next"
+              android:label="fifty_next">
+        <action android:id="@+id/action_fifty_next_to_mainScreen" app:destination="@id/mainScreen"/>
     </fragment>
 </navigation>

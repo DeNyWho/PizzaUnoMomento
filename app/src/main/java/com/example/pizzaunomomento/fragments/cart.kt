@@ -49,6 +49,7 @@ class Cart : Fragment() {
         // Inflate the layout for this fragment
         return view
     }
+
     private fun showDialogTime() {
         val dialog = Dialog(requireContext())
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)

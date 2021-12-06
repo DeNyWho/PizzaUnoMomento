@@ -1,52 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
-             android:layout_height="match_parent">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-              android:layout_marginTop="15dp"
-              android:fontFamily="@font/montserratbold"
-              android:textSize="14sp"
-              android:text="История заказов"
-              android:layout_gravity="center_horizontal"
-              android:textColor="#000000"/>
+             android:layout_height="270dp">
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="6 декабря 09:21"
+              android:id="@+id/data"
               android:textColor="#000000"
               android:fontFamily="@font/medium"
               android:textSize="14sp"
-              android:layout_marginTop="47dp"
-              android:layout_marginStart="47dp"/>
+              android:layout_marginStart="27dp"/>
     
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="— доставлен"
+              android:id="@+id/status"
               android:textColor="#4D000000"
               android:textSize="14sp"
               android:fontFamily="@font/medium"
-              android:layout_marginTop="47dp"
               android:layout_marginStart="165dp"/>
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="2670₽"
+              android:id="@+id/first_cost"
               android:textSize="14sp"
               android:textColor="#FE0602"
               android:fontFamily="@font/montserratbold"
-              android:layout_marginEnd="40dp"
-              android:layout_gravity="end"
-              android:layout_marginTop="47dp"/>
+              android:layout_marginEnd="20dp"
+              android:layout_gravity="end"/>
     
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="Пицца Гавайская x1"
+              android:id="@+id/title_first"
               android:textColor="#333333"
               android:fontFamily="@font/montserrat"
               android:textSize="14sp"
-              android:layout_marginTop="77dp"
-              android:layout_marginStart="47dp"/>
+              android:layout_marginTop="30dp"
+              android:layout_marginStart="27dp"/>
     
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="490₽"
-              android:layout_marginTop="77dp"
-              android:layout_marginEnd="47dp"
+              android:id="@+id/second_cost"
+              android:layout_marginTop="30dp"
+              android:layout_marginEnd="27dp"
               android:fontFamily="@font/montserrat"
               android:textSize="14sp"
               android:textColor="@color/black"
@@ -54,24 +49,27 @@
     
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="Тонкое тесто, томатный\nсоус, размер S"
-              android:layout_marginTop="95dp"
-              android:layout_marginStart="47dp"
+              android:id="@+id/description_one"
+              android:layout_marginTop="50dp"
+              android:layout_marginStart="27dp"
               android:textColor="#4D000000"
               android:fontFamily="@font/montserrat"
               android:textSize="12sp"/>
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="Пицца Конструктор x1"
+              android:id="@+id/title_second"
               android:textColor="#333333"
               android:fontFamily="@font/montserrat"
               android:textSize="14sp"
-              android:layout_marginTop="130dp"
-              android:layout_marginStart="47dp"/>
+              android:layout_marginTop="86dp"
+              android:layout_marginStart="27dp"/>
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="1600₽"
-              android:layout_marginTop="130dp"
-              android:layout_marginEnd="47dp"
+              android:id="@+id/third_cost"
+              android:layout_marginTop="86dp"
+              android:layout_marginEnd="27dp"
               android:fontFamily="@font/montserrat"
               android:textSize="14sp"
               android:textColor="@color/black"
@@ -79,24 +77,27 @@
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="пышное тесто, томатный соус\nразмер L, баклажаны, белые\nгрибы, паприка, цукини, оливки\nи маслины"
-              android:layout_marginTop="150dp"
-              android:layout_marginStart="47dp"
+              android:layout_marginTop="110dp"
+              android:layout_marginStart="27dp"
+              android:id="@+id/description_two"
               android:textColor="#4D000000"
               android:fontFamily="@font/montserrat"
               android:textSize="12sp"/>
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="Салат Цезарь x2"
+              android:id="@+id/title_third"
               android:textColor="#333333"
               android:fontFamily="@font/montserrat"
               android:textSize="14sp"
-              android:layout_marginTop="213dp"
-              android:layout_marginStart="47dp"/>
+              android:layout_marginTop="173dp"
+              android:layout_marginStart="27dp"/>
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="580₽"
-              android:layout_marginTop="213dp"
-              android:layout_marginEnd="47dp"
+              android:id="@+id/fourth_cost"
+              android:layout_marginTop="173dp"
+              android:layout_marginEnd="27dp"
               android:fontFamily="@font/montserrat"
               android:textSize="14sp"
               android:textColor="@color/black"
@@ -104,15 +105,16 @@
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:text="с креветками"
-              android:layout_marginTop="230dp"
-              android:layout_marginStart="47dp"
+              android:layout_marginTop="190dp"
+              android:layout_marginStart="27dp"
+              android:id="@+id/description_three"
               android:textColor="#4D000000"
               android:fontFamily="@font/montserrat"
               android:textSize="12sp"/>
     
     <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="24dp"
                                                android:background="@drawable/cart_button_pressed"
-                                               android:layout_marginTop="263dp"
+                                               android:layout_marginTop="223dp"
                                                android:layout_marginStart="80dp"
                                                android:layout_marginEnd="80dp"
                                                android:text="Повторить заказ"

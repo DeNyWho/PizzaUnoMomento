@@ -27,7 +27,7 @@
         android:layout_marginTop="30dp"
         android:text="Набор для\nприготовления мини-\nпиццы пепперони\nсвоими руками"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
         android:fontFamily="@font/montserrat"
@@ -45,6 +45,7 @@
         android:textSize="14sp"/>
     
     <ImageView
+            android:id="@+id/back_menu"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:src="@drawable/arrow_2"
@@ -52,6 +53,7 @@
         android:layout_marginStart="48dp"/>
     
     <ImageView
+            android:id="@+id/cart"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:src="@drawable/shopping_cart_3"

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/container"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="37dp">
+
+        <FrameLayout
+                android:id="@+id/frame_first"
+                android:layout_width="100dp"
+                android:background="@drawable/menu_next"
+                android:layout_height="160dp">
+
+            <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/piz"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="26dp"/>
+
+            <TextView
+                    android:id="@+id/title_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="17dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/menu_next"
+                    android:layout_marginTop="119dp"
+                    android:layout_marginStart="32dp"
+                    android:paddingTop="10dp"
+                    android:drawableTop="@drawable/descendant_arrow_angle_1"
+                    android:layout_marginEnd="33dp"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:id="@+id/frame_two"
+                android:layout_width="100dp"
+                android:background="@drawable/menu_next"
+                android:layout_marginStart="18dp"
+                android:layout_height="160dp">
+
+            <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/piz"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="26dp"/>
+
+            <TextView
+                    android:id="@+id/title_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="17dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/menu_next"
+                    android:layout_marginTop="119dp"
+                    android:layout_marginStart="32dp"
+                    android:paddingTop="10dp"
+                    android:drawableTop="@drawable/descendant_arrow_angle_1"
+                    android:layout_marginEnd="33dp"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:id="@+id/frame_three"
+                android:layout_width="100dp"
+                android:background="@drawable/menu_next"
+                android:layout_marginStart="18dp"
+                android:layout_height="160dp">
+
+            <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/piz"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="26dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:id="@+id/title_three"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="17dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/menu_next"
+                    android:layout_marginTop="119dp"
+                    android:layout_marginStart="32dp"
+                    android:paddingTop="10dp"
+                    android:drawableTop="@drawable/descendant_arrow_angle_1"
+                    android:layout_marginEnd="33dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/back"
+            android:layout_marginStart="35dp"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/arrowblack"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="50/50"
+            android:textColor="#333333"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="34dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/medium"/>
+
+    <ImageView
+            android:id="@+id/cart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="41dp"
+            android:layout_gravity="right"
+            android:src="@drawable/shopping_cart" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Стандарт(28 см), Пышное\nтесто, Томатный соус"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="78dp"
+            android:textColor="#9C9C9C"
+            android:fontFamily="@font/medium"
+            android:textSize="14sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:textSize="18sp"
+            android:layout_marginTop="124dp"
+            android:text="Шримп"
+            android:textColor="#333333"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сыр Моццарелла, тигровые\nкреветки, итальянские специи,\nпикантный соус с шафраном"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="153dp"
+            android:textColor="#9C9C9C"
+            android:fontFamily="@font/medium"
+            android:textSize="12sp"/>
+
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="12dp"
+            android:src="@drawable/left"
+            android:layout_marginTop="214dp"
+            android:layout_marginStart="125dp"/>
+
+    <ImageView
+            android:layout_width="25sp"
+            android:layout_height="12dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginTop="214dp"
+            android:layout_gravity="right"
+            android:src="@drawable/right"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:text="Уно Лайт"
+            android:layout_marginTop="211dp"
+            android:layout_marginStart="36dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:text="Цезарь"
+            android:layout_marginTop="211dp"
+            android:layout_marginEnd="37dp"
+            android:layout_gravity="right"/>
+
+    <ImageView
+            android:layout_width="214dp"
+            android:layout_height="218dp"
+            android:src="@drawable/halves_1"
+            android:layout_marginTop="240dp"
+            android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+            android:layout_width="36dp"
+            android:layout_height="268dp"
+            android:src="@drawable/halves_3"
+            android:layout_marginTop="205dp"
+            android:layout_gravity="end"/>
+
+    <ImageView
+            android:layout_width="36dp"
+            android:layout_height="268dp"
+            android:src="@drawable/halves_7"
+            android:layout_marginTop="205dp"
+            android:layout_gravity="start"/>
+
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="12dp"
+            android:src="@drawable/left"
+            android:layout_marginTop="480dp"
+            android:layout_marginStart="125dp"/>
+
+    <ImageView
+            android:layout_width="25sp"
+            android:layout_height="12dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginTop="480dp"
+            android:layout_gravity="right"
+            android:src="@drawable/right"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:text="Шеф Пицца"
+            android:layout_marginTop="477dp"
+            android:layout_marginStart="26dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:text="Карбонара"
+            android:layout_marginTop="477dp"
+            android:layout_marginEnd="25dp"
+            android:layout_gravity="right"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:textSize="18sp"
+            android:layout_marginTop="517dp"
+            android:text="Пепперони"
+            android:textColor="#333333"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сыр Моццарелла, колбаса\nпепперони, итальянские\nспеции, соус"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="540dp"
+            android:textColor="#9C9C9C"
+            android:fontFamily="@font/medium"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="СТОИМОСТЬ:"
+            android:textColor="#333333"
+            android:layout_marginBottom="57dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="26dp"
+            android:fontFamily="@font/medium"
+            android:textSize="10sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250₽"
+            android:textColor="#FE0602"
+            android:layout_marginBottom="29dp"
+            android:layout_marginStart="26dp"
+            android:fontFamily="@font/montserratbold"
+            android:textSize="26sp"
+            android:layout_gravity="bottom"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:background = "@drawable/cart_button_pressed"
+            android:text="Добавить\nв корзину"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/medium"
+            android:textSize="10sp"
+            android:layout_marginBottom="38dp"
+            android:layout_marginEnd="25dp"
+            android:layout_gravity="bottom|end"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="108dp"
+            android:layout_marginStart="209dp"
+            android:layout_marginEnd="156dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/card_item_button"
+            android:drawableTop="@drawable/plus"
+            android:paddingTop="7dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="108dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginEnd="209dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/card_item_button"
+            android:drawableTop="@drawable/minus"
+            android:paddingTop="9dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/medium"
+            android:textSize="14sp"
+            android:layout_marginBottom="112dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginStart="184dp"
+            android:layout_marginEnd="184dp"/>
+
+</FrameLayout>

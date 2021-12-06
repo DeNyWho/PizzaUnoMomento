@@ -33,9 +33,9 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/next"
         android:layout_width="match_parent"
-        android:layout_height="24sp"
+        android:layout_height="34sp"
         android:background="@drawable/cart_button_pressed"
-        android:layout_marginBottom="26sp"
+        android:layout_marginBottom="06sp"
         android:layout_gravity="bottom"
         android:layout_marginStart="38dp"
         android:layout_marginEnd="37dp"

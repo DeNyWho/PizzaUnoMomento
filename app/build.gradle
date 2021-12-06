@@ -33,7 +33,9 @@ android {
 }
 
 dependencies {
+    implementation 'com.github.ssseasonnn:AnimatorX:1.0.3'
     //Navigation Architecture Component
+    implementation 'me.relex:circleindicator:2.1.6'
     implementation "androidx.navigation:navigation-fragment-ktx:2.3.4"
     implementation "androidx.navigation:navigation-ui-ktx:2.3.4"
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.1.17'

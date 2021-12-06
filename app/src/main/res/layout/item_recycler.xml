@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/frame"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="170dp">
 
     
     <FrameLayout
@@ -13,6 +14,7 @@
         android:background="@drawable/background">
 
         <TextView
+                android:id="@+id/tag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="новинка"
@@ -30,6 +32,7 @@
             android:background="@drawable/star_2"/>
 
         <TextView
+                android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserratbold"
@@ -50,6 +53,7 @@
             android:textSize="14sp"/>
 
         <TextView
+                android:id="@+id/cost"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="от 615 ₽"
@@ -70,6 +74,7 @@
     </FrameLayout>
 
     <ImageView
+            android:id="@+id/image"
         android:layout_width="129dp"
         android:layout_height="129dp"
         android:layout_marginStart="14dp"
