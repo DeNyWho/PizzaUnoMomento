@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.nextReg2 -> bottomBar.visibility = View.GONE
                 else -> bottomBar.visibility = View.VISIBLE
             }
-
         }
     }
 
